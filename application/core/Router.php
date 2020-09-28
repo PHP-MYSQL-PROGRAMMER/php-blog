@@ -37,8 +37,8 @@ class Router {
                 $this->params = $params;
                 return true;
             }
+            return false;
         }
-        return false;
     }
 
     public function run(){
